@@ -39,4 +39,4 @@ console.log("Test cases are bellow");
 console.log(decoderRing("ab", "a"));   
 console.log(decoderRing("aa", "*"));   
 console.log(decoderRing("cb", "?a"));
-console.log(decoderRing("archit", "*"));  
+console.log(decoderRing("architn", "*"));  
