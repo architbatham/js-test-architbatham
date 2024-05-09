@@ -5,11 +5,14 @@ const getTotalIsles = function (grid) {
     const col=grid.length;
 
     function demo(){
-      
+      console.log("working");
     }
+    demo();
 
-  };
+  }
+  getTotalIsles();
+
   
-  module.exports = getTotalIsles;
+  // module.exports = getTotalIsles;
 
 

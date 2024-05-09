@@ -1,1 +1,1 @@
-hello
+module.exports = getTotalIsles;
