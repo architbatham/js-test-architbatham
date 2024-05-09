@@ -1,3 +1,11 @@
+/* 
+-->We have two special symbols: '*' and '?'.
+-->'*' acts as a wildcard and can represent any sequence of letters, including none.
+-->'?' can replace any single letter in the message.
+-->If the key unlocks the message, return true; otherwise, return false
+*/
+
+
 function decoderRing(s, p) {
   let sIndex = 0;
   let pIndex = 0;
@@ -27,7 +35,8 @@ function decoderRing(s, p) {
   return sIndex === s.length && pIndex === p.length;
 }
 
-// Test cases
-console.log(decoderRing("aa", "a"));   // Output: false
-console.log(decoderRing("aa", "*"));   // Output: true
-console.log(decoderRing("cb", "?a")); // Output: false
+console.log("Test cases are bellow");
+console.log(decoderRing("ab", "a"));   
+console.log(decoderRing("aa", "*"));   
+console.log(decoderRing("cb", "?a"));
+console.log(decoderRing("archit", "*"));  
